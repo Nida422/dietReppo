@@ -1,0 +1,226 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+.navbar{
+    height: 75px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-video{
+    width: 14%;
+    height: 100%;
+    border-radius: 10px;  
+}
+.nav-video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav-contant{
+    width: 82%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+.nav-contant a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.hero-sec-image{
+    width: 100%;
+    height: 33rem;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+}
+.hero-img{
+    height: 29rem;
+    width: 92%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px black;
+}
+.hero-img img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    border-radius: 10px;
+}
+.health-cont{
+    width: 100%;
+    height: 187px;
+    background-color: rgb(255, 255, 255);
+}
+ .health-cont svg{
+    position: absolute;
+     
+     
+ }
+ .health-cont h2{
+    font-size: 30px;
+    font-weight: 900;
+    background-position: fixed;
+   display: flex;
+    justify-content: center;
+    padding-top: 47px;
+ }
+ .health-img-cont{
+    width: 100%;
+    height: 95rem;
+    background-color: gainsboro;
+    margin-top: 20px;
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+
+ }
+ .content-div{
+    height: 30rem;
+    width: 90%;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+.content-part{
+   width: 40%;
+    height: 50%;
+}
+.image-part{
+    width: 40%;
+    height: 100%;   
+    border-radius: 10px;
+}
+.image-part img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.ques-ans-part{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    background-image: url("hero-imgage.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ .head-div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    filter: brightness(3px);
+ }
+ .form-diet-plane h1{
+    color: white;
+    font-weight: 700;
+ }
+.form-diet-plane{
+    width: 40%;
+    height: 90%;
+}
+.diet-form{
+    display: block;
+    justify-content: space-evenly;
+}
+ form{
+    width: 30rem;
+    height: 26rem;
+    display: block;
+    align-items: center;
+    margin-left: 10px;
+ }
+ .form-diet-plane .inp-typ{
+    width: 100%;
+    padding: 7px 10px;
+    border: none;
+    box-shadow: 1px 1px 2px 2px rgb(204, 230, 204);
+    border-radius: 12px;
+ }
+ .form-diet-plane label{
+    color: white;
+    margin: 8px;
+    font-weight: 600;
+ }
+ .form-diet-plane button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 13px;
+    border: none;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: rgb(89, 190, 89);
+    cursor: pointer;
+ }
+ .wrapped{
+    width: 40%;
+    height: 25rem;
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .image{
+    width: 100%;
+    position: relative;
+ }
+ .image img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    filter: brightness(5px);
+    box-shadow: 1px 1px 3px 3px gainsboro;
+ }
+ .content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+ }
+ .content:hover{
+    opacity: 1;
+ }
+ .content h1{
+    font-size: 30px;
+    color: rgb(89, 190, 89);
+    margin-bottom: 15px;
+ }
+ .content p{
+    font-size: 16px;
+    color: #fff;
+ }
+ .content a{
+    text-decoration: none;
+    text-align: center;
+ }
+ .content > *{
+    transform: translateY(25px);
+    transition: transform 0.6s;
+ }
+ .content:hover > *{
+    transform: translateY(0);
+ }
