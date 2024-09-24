@@ -132,8 +132,14 @@ body{
     font-weight: 700;
  }
 .form-diet-plane{
-    width: 40%;
+    width: 42%;
     height: 90%;
+    background-color: rgba(255, 255, 255, 0.689);
+   box-shadow: 2px 2px 3px 3px white;
+}
+.food{
+   color: black;
+   font-weight: 600;
 }
 .diet-form{
     display: block;
@@ -153,8 +159,8 @@ body{
     box-shadow: 1px 1px 2px 2px rgb(204, 230, 204);
     border-radius: 12px;
  }
- .form-diet-plane label{
-    color: white;
+ .form-diet-plane .label{
+    color: rgb(89, 190, 89);
     margin: 8px;
     font-weight: 600;
  }
@@ -169,10 +175,18 @@ body{
     background-color: rgb(89, 190, 89);
     cursor: pointer;
  }
+ .wrapped-merge{
+    height: auto;
+    width: 100%;
+   display: block;
+    align-items: center;
+    
+ }
  .wrapped{
     width: 40%;
-    height: 25rem;
-    margin: 30px;
+    height: 24.5rem;
+    margin-top: 30px;
+    margin-left: 30%;
     display: flex;
     justify-content: space-evenly;
  }
@@ -186,6 +200,7 @@ body{
     margin: auto;
     filter: brightness(5px);
     box-shadow: 1px 1px 3px 3px gainsboro;
+    border-radius: 10px;
  }
  .content{
     width: 100%;
@@ -224,3 +239,12 @@ body{
  .content:hover > *{
     transform: translateY(0);
  }
+ .wrapped2{
+   align-items: center;
+   width: 40%;
+   height: 31.5rem;
+   margin: 30px;
+   margin-left: 30%;
+   display: flex;
+   justify-content: space-evenly;
+}
