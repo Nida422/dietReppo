@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: 100vh;
+    background-image:linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    }
+
+.heading{
+   text-align: center;
+   padding: 2rem;
+   font-size:3.5rem;
+   font-weight: 900;
+}
+.navbar{
+    background-color: black;
+    text-align: center;
+    font-size:25px;
+    padding:2rem;
+    display: flex;
+    justify-content: space-around;
+    position:sticky;
+    top:0%;
+    z-index:1;
+    
+}
+.navbar a{
+    color: beige;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color:red;
+}
+.show img{
+    height:24rem;
+    width: 30rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.6px);
+}
+    
+.show {
+   padding:2rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+    
+
+}
+
+.show img:hover{
+    scale: 1.1;
+    transition: .3s;
+}
+
+#image{
+    /* background-color: bisque; */
+ height:30rem;
+ width: 29rem;
+ position: fixed;
+ /* object-fit: cover; */
+ background-size:contain;
+ background-repeat: no-repeat;
+background-position: center;
+ display: none;
+ top:30% ;
+ left:60%;
+ /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+}
+#warmup{
+    text-align: center;
+    padding:1rem;
+    font-size:1.7rem;
+    background-color: rgb(172, 246, 223);
+}
+.effect{
+    height: 2.5rem;
+    border-bottom: 2px dotted black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.effect:hover{
+    color:white;
+    background-color: rgb(82, 82, 253);
+    transition: .3s;
+}
+#daily{
+    text-align: center;
+    padding:1rem;
+    font-size:1.7rem;
+    background-color: rgb(186, 255, 172);
+}
+
+#belly{
+    text-align: center;
+    padding:1rem;
+    font-size:1.7rem;
+    background-color: rgb(203, 195, 253);
+}
+
+#legs{
+    text-align: center;
+    padding:1rem;
+    font-size:1.7rem;
+    background-color: rgb(244, 250, 210);
+}
+
+#bp{
+    text-align: center;
+    padding:1rem;
+    font-size:1.7rem;
+    background-color: rgb(254, 193, 184);
+}
+#sugar{
+    text-align: center;
+    padding:1rem;
+    font-size:1.7rem;
+    background-color: rgb(192, 189, 247);
+}
+
+#thyroid{
+    text-align: center;
+    padding:1rem;
+    font-size:1.7rem;
+    background-color: rgb(172, 246, 223);
+}
+h4{
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    font-weight: 700;
+}
+ h3{ padding:0.4rem;
+    font-weight: 800;
+
+ }
+.note{
+    padding: 1.5rem;
+   border-bottom:4px double black;
+
+}
+
+span{
+    font-size:1.2rem;
+    font-weight:300;
+}
+#nt{background-color: rgb(39, 120, 220);
+color: azure;}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2>family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+    text-decoration:none;
+    border:none;
+    outline:none;
+    scroll-behavior:smooth;
+}
+:root{
+    --bg-color:#1f242d;
+    --second-bg-color: #323946;
+    --text-color:#fff;
+    --main-color:#0ef;
+}
+html{
+    font-size:62.5%;
+    overflow-x:hidden;
+}
+body{
+    background: var(--bg-color);
+    color:var(--text-color);
+}
+.contact h2{
+    margin-bottom: 3rem;
+}
+span{
+    color: var(--main-color);
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+.btn:hover{
+    box-shadow: none;
+}
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+}
+.contact h2{
+    margin-bottom: 3rem;
+}
+.contact .form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact .form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact .form .input-box input,
+.contact .form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+.contact .form .input-box input{
+    width: 49%;
+}
+.contact .form textarea{
+    resize: none;
+}
+.contact .form .btn{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+input#completeName{
+    padding-left:2rem;
+}
+input#email{
+    padding-left:2rem;
+    width:23rem;
+    height:3rem;
+}
+input#number{
+    padding-left:2rem;
+    width:23rem;
+    height:3rem;
+}
+input#subject{
+    padding-left:2rem;
+    width:23rem;
+    height:3rem;
+}
+textarea#message{
+    padding-left:2rem;
+    width:46rem;
+}
+button.btn{
+    margin-left: 15rem !important;
+    padding-left: 3rem !important;
+}
+div.form{
+    margin-top:6rem!important;
+    margin-left: 43rem !important;
+}
